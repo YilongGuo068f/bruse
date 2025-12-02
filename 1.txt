@@ -7,7 +7,7 @@ playwright install
   --user-data-dir="C:\Users\Thinkpad\AppData\Local\Google\Chrome\User Data\Default"
 
 http://127.0.0.1:9222
-
+http://127.0.0.1:9222/json/version
 
 python my_custom_template.py 
 python .\test_third_party_api.py
