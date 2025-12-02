@@ -9,5 +9,9 @@ playwright install
 http://127.0.0.1:9222
 http://127.0.0.1:9222/json/version
 
+conda create -n bruse python=3.12 -c https://mirrors.aliyun.com/anaconda/pkgs/main/
+pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+
+
 python my_custom_template.py 
 python .\test_third_party_api.py
