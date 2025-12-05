@@ -1,6 +1,5 @@
 conda create -n bruse python=3.12.12
 conda activate bruse
-cd browser-use-0.8.1
 pip install -r requirements.txt
 playwright install
 
@@ -18,3 +17,4 @@ pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 python my_custom_template.py 
 
 python .\test_third_party_api.py
+
